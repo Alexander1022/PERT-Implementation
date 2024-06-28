@@ -21,7 +21,7 @@ void Chart::topologicalSortUtil(int v, std::vector<bool>& visited, std::stack<in
 }
 
 /**
- * @brief Performs a classical topological sort on the graph and finds the longest path from the specified source vertex.
+ * @brief Performs a topological sort on the graph and finds the longest path from the specified source vertex in the classical way.
  *
  * @param s - The source vertex.
  */
